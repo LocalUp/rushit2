@@ -7,6 +7,8 @@
 
 .team-section{
     overflow: hidden;
+    width: auto;
+    height: 100%;
     background-color: slategrey;
     padding: 60px;
 }
@@ -19,7 +21,6 @@
 
 }
 .border{
-    
     display: block;
     margin: auto;
     height:3px;
