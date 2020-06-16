@@ -19,6 +19,17 @@
   }
 }
 
+
+.border{
+  display: block;
+  margin: auto;
+  height:3px;
+  width: 400px;
+  background: grey;
+  margin-bottom:40px;
+
+}
+
 .column{
   float: left;
   width: 30%;
@@ -45,6 +56,26 @@
   
 }
 
+.section1{
+  width=60%;
+  margin: 50px;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.section2{
+  width=60%;
+  margin: 50px;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.section3{
+  width=60%;
+  margin: 50px;
+  font-size: 20px;
+  padding: 50px;
+}
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
