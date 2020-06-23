@@ -43,11 +43,11 @@
 
 
 
-.image img{
-  height: 100%;
-  width: 100%;
-  border-top-right-radius: 20px ;
-  border-top-left-radius: 20px ;
+.image{
+  width: 20rem;
+  height: 22rem;
+  padding: 0.5px;
+  border-radius: 3px;
 }
 
 
