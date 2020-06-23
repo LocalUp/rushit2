@@ -21,11 +21,24 @@
         -ms-user-select: none;
         user-select: none;
       }
+      .wholecontainer{
+        width: auto;
+          height: 100%;
+          background: white;
+      }
 
       @media (min-width: 1024px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+      }
+      .M{
+        width: 100%;
+        height: auto;
+        display:inline-block;
+        padding: 15px;
+        margin: 50px;
+        
       }
     </style>
     <!-- Custom styles for this template -->
@@ -33,46 +46,123 @@
   </head>
   <body>
     <header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
+    
+      
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">LocalUP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="owlcarousel.html">About</a>
+        </li>
         
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
-            <li><a href="#" class="text-white">Follow on instagram</a></li>
-          </ul>
-        </div>
-      </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Report</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary" href="Sign up.html">Sign up</a>
+        </li>
+      </ul>
+      <form class="form-inline mt-2 mt-md-0" style="width: fit-content;">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-       
-        <strong>About us </strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
+  </nav>
 </header>
-
+<div class="wholecontainer">
 <main role="main">
 
-  <section class="jumbotron text-center">
+  <section class="jumbotron text-center" style="width: 100%;">
     <div class="container">
       <h1>OUR TEAM </h1>
       <span class="border"> </span>
      
     </div>
   </section>
+  <div class="M">
+  <div class="card" style=" width: 20rem; float: left;border-radius: 5px;margin: 7px;">
+    <img class="image" src="me2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h3>Rushit Prajapati</h3></p>
+      <p class="card-text">He is from palanpur Gujrat.Graduated from SVNIT</p>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View more..</button>
+    </div>
+  </div>
+  </div>
+  <div class="card" style="width: 20rem;float: left;border-radius: 5px;margin: 7px;">
+    <img class="image"src="param.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h3>Rushit Prajapati</h3></p>
+      <p class="card-text">He is from palanpur Gujrat.Graduated from SVNIT</p>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View more..</button>
+    </div>
+  </div>
+  </div>
+  <div class="card" style="width: 20rem;float: left; border-radius: 5px;margin: 7px;">
+    <img class="image"src="chiko2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h3>Rushit Prajapati</h3></p>
+      <p class="card-text">He is from palanpur Gujrat.Graduated from SVNIT</p>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View more..</button>
+    </div>
+  </div>
+  </div>
+  <div class="card" style="width: 20rem;float: left;border-radius: 5px;margin: 7px;">
+    <img class="image"src="pako.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h3>Rushit Prajapati</h3></p>
+      <p class="card-text">He is from palanpur Gujrat.Graduated from SVNIT</p>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View more..</button>
+    </div>
+  </div>
+  </div>
+  <div class="card" style="width: 20rem;float: left;border-radius: 5px;margin: 7px;">
+    <img class="image" src="vraj.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h3>Rushit Prajapati</h3></p>
+      <p class="card-text">He is from palanpur Gujrat.Graduated from SVNIT</p>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View more..</button>
+    </div>
+  </div>
+  </div>
+  <div class="card" style="width: 20rem;float: left;border-radius: 5px;margin: 7px;">
+    <img class="image" src="harsh.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h3>Rushit Prajapati</h3></p>
+      <p class="card-text">He is from palanpur Gujrat.Graduated from SVNIT</p>
+      
+        <div class="btn-group">
+          <button type="button" class="btn btn-sm btn-outline-secondary">View more..</button>
+    </div>
+  </div>
+  </div>
 
-  <div class="album py-5 bg-light">
+</div>
+
+  <!-- <div class="album py-5 bg-light">
     <div class="container">
 
       <div class="row">
@@ -220,7 +310,7 @@
         
       </div>
     </div>
-  </div>
+  </div> -->
 
 </main>
 
@@ -266,6 +356,15 @@
     
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script></body>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')
+      </script><script src="asset/bootstrap.bundle.js"></script>
+      
+    
+    
+</body>
+
 </html>
